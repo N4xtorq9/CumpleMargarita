@@ -47,12 +47,14 @@ body {
     color: white;
     font-weight: bold;
     font-family: "Birthstone", cursive;
+    font-size: 4rem;
 }
 
 .nombre1 {
     color: white;
     font-weight: bold;
     font-family: "Caveat Brush", cursive;
+    font-size: 3rem;
 }
 
 .años {
@@ -61,11 +63,12 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: "Caveat Brush", cursive;
+    font-size: 3rem;
 }
 
 h2 {
     color: white;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-top: 12px;
     font-weight: 600;
     font-family: "Caveat Brush", cursive;
@@ -100,7 +103,7 @@ h2 {
 }
 
 .header h1 {
-    font-size: 3rem;
+    
     margin-bottom: 8px;
     letter-spacing: 1px;
 }
@@ -122,8 +125,8 @@ h2 {
 
 .header-foto {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 270px;
+    height: 270px;
     object-fit: cover;
     border-radius: 50%;
     border: 4px solid rgba(255, 255, 255, 0.85);
@@ -183,7 +186,13 @@ h2 {
 
 .mensaje {
     font-style: italic;
-    color: #636e72;
+    color: #000000;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+.mensaje1 {
+    font-style: italic;
+    color: #000000;
     margin-bottom: 25px;
     line-height: 1.6;
 }
