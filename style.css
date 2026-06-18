@@ -58,7 +58,7 @@ body {
 }
 
 .años {
-    margin-top: 8px;
+    margin-top: 4px;
     color: #ffffff;
     font-size: 1.5rem;
     font-weight: bold;
@@ -92,7 +92,6 @@ h2 {
     overflow: hidden;
     background-image: url(img/3-01.jpg);
     background-size: cover;
-    color: rgb(0, 0, 0);
     padding: 40px 20px;
 }
 
