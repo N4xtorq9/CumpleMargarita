@@ -381,3 +381,38 @@ h2 {
     text-decoration: none;
     font-weight: 600;
 }
+
+.confirmar {
+    background: #25D366;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-family: "Caveat Brush", cursive;
+    font-weight: 600;
+    padding: 12px 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.confirmar::before {
+    content: "";
+    display: none;
+}
+
+.confirmar:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(108, 92, 231, 0.4);
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
